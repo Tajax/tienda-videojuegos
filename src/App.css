@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Catálogo */
+  .juegos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  /* JuegoCard */
+  .juego-card {
+    border: 1px solid #cccccc;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .juego-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .juego-card h3 {
+    margin: 0.5rem 0;
+  }
